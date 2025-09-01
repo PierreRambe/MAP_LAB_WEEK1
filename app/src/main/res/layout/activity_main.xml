@@ -8,8 +8,7 @@
     android:layout_height="match_parent"
     style="@style/screen_margin"
     tools:context=".MainActivity">
-
-    <!-- Container untuk nama-->
+    
     <TextView
         android:id="@+id/name_display"
         style="@style/text_display"
@@ -43,7 +42,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/name_wrapper" />
-
     <TextView
         android:id="@+id/nim_display"
         style="@style/text_display"
